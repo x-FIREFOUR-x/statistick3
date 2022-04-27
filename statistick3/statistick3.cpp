@@ -69,8 +69,8 @@ void func2()
     vubirka_interval.push_back(xi1);
     vubirka_interval.push_back(ni1);
 
-    vector<int> xi;
-    vector<int> ni;
+    vector<float> xi;
+    vector<float> ni;
 
     for (int i = 0; i < vubirka_interval[0].size(); i+=2)
     {
@@ -79,7 +79,7 @@ void func2()
         xi.push_back(x);
         ni.push_back(vubirka_interval[1][i / 2]);
     }
-    vector<vector<int>> vubirka;
+    vector<vector<float>> vubirka;
     vubirka.push_back(xi);
     vubirka.push_back(ni);
 
